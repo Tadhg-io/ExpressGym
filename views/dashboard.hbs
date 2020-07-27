@@ -1,8 +1,29 @@
 {{> menu id="dashboard"}}
 
-<section class="ui segment">
-  <h2 class="ui header">
-    Beethoven Sonatas
-  </h2>
-  {{> listsongs}}
-</section>
+{{#each playlists}}
+  <section class="ui segment">
+    <h2 class="ui header">
+      {{title}}
+    </h2>
+    <table class="ui table">
+      <thead>
+        <tr>
+          <th>Song</th>
+          <th>Artist</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each songs}}
+          <tr>
+            <td>
+              {{title}}
+            </td>
+            <td>
+              {{artist}}
+            </td>
+          </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  </section>
+{{/each}}
