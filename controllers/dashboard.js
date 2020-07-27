@@ -1,14 +1,17 @@
-"use strict";
+'use strict';
 
-const logger = require("../utils/logger");
+const logger = require('../utils/logger');
+const playlistCollection = require('../models/playlist-store.js');
 
 const dashboard = {
   index(request, response) {
-    logger.info("dashboard rendering");
+    logger.info('dashboard rendering');
     const viewData = {
-      title: 'Playlist 1 Dashboard'
+      title: 'Playlist Dashboard',
+      playlists: playlistCollection,
     };
-    response.render("dashboard", viewData);
+    logger.info('about to render', playlistCollection);
+    response.render('dashboard', viewData);
   },
 };
 
