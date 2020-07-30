@@ -5,11 +5,16 @@
     <h2 class="ui header">
       {{title}}
     </h2>
+    <h4>
+      Duration: {{duration}} minutes
+    </h4>
     <table class="ui table">
       <thead>
         <tr>
           <th>Song</th>
           <th>Artist</th>
+          <th>Duration</th>
+          <th>Genre</th>
         </tr>
       </thead>
       <tbody>
@@ -20,6 +25,12 @@
             </td>
             <td>
               {{artist}}
+            </td>
+            <td>
+              {{duration}}
+            </td>
+            <td>
+              {{genre}}
             </td>
           </tr>
         {{/each}}

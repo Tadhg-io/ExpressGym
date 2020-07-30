@@ -7,19 +7,22 @@
           "id":"01",
           "title": "Piano Sonata No. 3",
           "artist": "Beethoven",
-          "duration":32
+          "duration":10,
+          "genre": "Classical"
         },
         {
           "id":"02",
           "title": "Piano Sonata No. 7",
           "artist": "Beethoven",
-          "duration":32
+          "duration":5,
+          "genre": "Classical"
         },
         {
           "id":"03",
           "title": "Piano Sonata No. 10",
           "artist": "Beethoven",
-          "duration":32
+          "duration":7,
+          "genre": "Classical"
         }
       ],
       "duration":22
@@ -31,19 +34,22 @@
           "id":"04",
           "title": "Piano Concerto No. 0",
           "artist": "Beethoven",
-          "duration":32
+          "duration":9,
+          "genre": "Classical"
         },
         {
           "id":"05",
           "title": "Piano Concerto No. 4",
           "artist": "Beethoven",
-          "duration":32
+          "duration":10,
+          "genre": "Classical"
         },
         {
           "id":"06",
           "title": "Piano Concerto No. 6",
           "artist": "Beethoven",
-          "duration":32
+          "duration":13,
+          "genre": "Classical"
         }
       ],
       "duration":32
@@ -55,19 +61,22 @@
           "id":"07",
           "title": "Inspector Norse",
           "artist": "Todd Terje",
-          "duration":32
+          "duration":6,
+          "genre": "Techno"
         },
         {
           "id":"08",
           "title": "Within",
           "artist": "Daft Punk",
-          "duration":32
+          "duration":5,
+          "genre": "Electro"
         },
         {
           "id":"09",
           "title": "Cry For You",
           "artist": "September",
-          "duration":32
+          "duration":3,
+          "genre": "Pop"
         }
       ],
       "duration":14
