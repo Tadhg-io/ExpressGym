@@ -1,34 +1,34 @@
 <table class="ui table">
-  <thead>
+    <thead>
     <tr>
-      <th>Song</th>
-      <th>Artist</th>
+        <th>Song</th>
+        <th>Artist</th>
+        <th>Genre</th>
+        <th>Duration</th>
+        <th></th>
     </tr>
-  </thead>
-  <tbody>
-  <tr>
-    <td>
-      Piano Sonata No. 3
-    </td>
-    <td>
-      Beethoven
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Piano Sonata No. 7
-    </td>
-    <td>
-      Beethoven
-    </td>
-  </tr>
-  <tr>
-    <td>
-      Piano Sonata No. 10
-    </td>
-    <td>
-      Beethoven
-    </td>
-  </tr>
-</tbody>
+    </thead>
+    <tbody>
+    {{#each playlist.songs}}
+        <tr>
+            <td>
+                {{title}}
+            </td>
+            <td>
+                {{artist}}
+            </td>
+            <td>
+                {{genre}}
+            </td>
+            <td>
+                {{duration}}
+            </td>
+            <td>
+                <a href="/playlist/{{../playlist.id}}/deletesong/{{id}}" class="ui icon button">
+                    <i class="icon trash"></i>
+                </a>
+            </td>
+        </tr>
+    {{/each}}
+    </tbody>
 </table>

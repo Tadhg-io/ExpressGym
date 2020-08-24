@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "email": "t1@eg.com",
+      "password": "secret",
+      "id": "3ad52697-6d98-4d80-8273-084ee55a86c0",
+      "type": "trainer"
+    },
+    {
+      "firstName": "homer",
+      "lastName": "simpson",
+      "email": "homer@simpson.com",
+      "password": "secret",
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "type": "trainer"
+    },
+    {
+      "firstName": "marge",
+      "lastName": "simpson",
+      "email": "marge@simpson.com",
+      "password": "secret",
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
+    },
+    {
+      "name": "Tadhg Conneely",
+      "email": "oconghat@tcd.ie",
+      "height": "130",
+      "password": "789456",
+      "id": "1d95f2e0-d760-11ea-82dd-dd5f3fd20f80",
+      "type": "member"
+    },
+    {
+      "name": "tadhg.io",
+      "gender": "Male",
+      "email": "js@example.com",
+      "password": "789456",
+      "address": "123 Baker Street",
+      "height": "130",
+      "startingweight": "82",
+      "id": "b9c14e30-dfcb-11ea-9bc0-0bb457513f3c",
+      "type": "member"
+    }
+  ]
+}

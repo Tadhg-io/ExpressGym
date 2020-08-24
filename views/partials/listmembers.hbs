@@ -1,0 +1,16 @@
+<div class="ui relaxed divided list">
+    {{#each members}}
+    <div class="item">
+        <i class="large github middle aligned icon"></i>
+        <div class="content">
+            <div class="header">
+                <a href="/trainerassessment/{{id}}">{{name}}</a>
+                <a href="/trainer-dashboard/deletemember/{{id}}">
+                    <i class="ui large red icon trash"></i>
+                </a>
+            </div>
+            <div class="description">X assessments </div>
+        </div>
+    </div>
+    {{/each}}
+</div>

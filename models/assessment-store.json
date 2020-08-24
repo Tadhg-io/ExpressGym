@@ -1,0 +1,16 @@
+{
+  "assessmentCollection": [
+    {
+      "id": "ecd6a200-df23-11ea-9dff-f783571f6e5b",
+      "userid": "1d95f2e0-d760-11ea-82dd-dd5f3fd20f80",
+      "date": 1597515597856,
+      "formatteddate": "15-7-2020",
+      "weight": "81.5",
+      "chest": "40.1",
+      "thigh": "1",
+      "upperarm": "22",
+      "waist": "67",
+      "hips": "58"
+    }
+  ]
+}
