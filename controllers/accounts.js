@@ -32,6 +32,24 @@ const accounts = {
     response.render('signup', viewData);
   },
 
+  settings(request, response) {
+    // get the user
+    const userID = request.cookies.expressGymUser;
+    const member = userstore.getUserById(userID);
+    const viewData = {
+      member: member
+    }
+    response.render('settings', viewData);
+  },
+
+  saveSettings(request, response) {
+    const userID = request.cookies.expressGymUser;
+    const member = userstore.getUserById(userID);
+    member.name = request.body.name;
+    userstore.store.save();
+    response.redirect('dashboard');
+  },
+
   register(request, response) {
     const user = request.body;
     user.id = uuid.v1();
