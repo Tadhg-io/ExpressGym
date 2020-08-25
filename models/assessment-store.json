@@ -1,16 +1,31 @@
 {
   "assessmentCollection": [
     {
-      "id": "ecd6a200-df23-11ea-9dff-f783571f6e5b",
+      "id": "a84ed900-e724-11ea-81a4-1b4fb67a9ba1",
       "userid": "1d95f2e0-d760-11ea-82dd-dd5f3fd20f80",
-      "date": 1597515597856,
-      "formatteddate": "15-7-2020",
+      "date": "2020-08-25T22:45:21.679Z",
+      "formatteddate": "25-7-2020",
       "weight": "81.5",
       "chest": "40.1",
       "thigh": "1",
       "upperarm": "22",
       "waist": "67",
-      "hips": "58"
+      "hips": "58",
+      "trend": false,
+      "comment": "a a"
+    },
+    {
+      "id": "acf1d430-e724-11ea-81a4-1b4fb67a9ba1",
+      "userid": "1d95f2e0-d760-11ea-82dd-dd5f3fd20f80",
+      "date": "2020-08-25T22:45:29.459Z",
+      "formatteddate": "25-7-2020",
+      "weight": "60",
+      "chest": "40.1",
+      "thigh": "1",
+      "upperarm": "22",
+      "waist": "68",
+      "hips": "58",
+      "trend": true
     }
   ]
 }

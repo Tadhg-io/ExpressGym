@@ -20,11 +20,13 @@ router.get('/login', accounts.login);
 router.get('/signup', accounts.signup);
 router.get('/logout', accounts.logout);
 router.get('/settings', accounts.settings);
+router.get('/trainer-assessments/:id', trainerDashboard.trainerAssessments);
 router.get('/images/', express.static('images'));
 // POST
 router.post('/register', accounts.register);
 router.post('/authenticate', accounts.authenticate);
 router.post('/dashboard/addassessment', dashboard.addAssessment);
 router.post('/settings', accounts.saveSettings);
+router.post('/edit-comment/:id', trainerDashboard.editComment);
 
 module.exports = router;
