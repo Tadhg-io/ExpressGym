@@ -11,13 +11,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d5b712f-854c-427b-a0ae-1eb12d4b78b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/views/partials/trainer-assessment-table.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/trainer-assessments.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/goal-store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/goal-store.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/partials/addgoal.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/partials/goal-card.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/partials/goal-list.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/partials/goal-section.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/playlist-1.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/trainer-dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/trainer-dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/about.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/about.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/assessment-store.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/assessment-store.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user-store.json" beforeDir="false" afterPath="$PROJECT_DIR$/models/user-store.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/listmembers.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/listmembers.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/dashboard.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/dashboard.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/addassessment.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/addassessment.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/settings.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/settings.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/signup.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/signup.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,15 +55,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/models" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Pingu\Desktop\HDIP\ictSkills\lab-05\playlist-1\node_modules\prettier" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pingu\Desktop\HDIP\ictSkills\Assignment\ExpressGym\models" />
+      <recent name="C:\Users\Pingu\Desktop\HDIP\ictSkills\Assignment\ExpressGym\views\partials" />
       <recent name="C:\Users\Pingu\Desktop\HDIP\ictSkills\Assignment\ExpressGym\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pingu\Desktop\HDIP\ictSkills\Assignment\ExpressGym\public" />
       <recent name="C:\Users\Pingu\Desktop\HDIP\ictSkills\Assignment\ExpressGym\views" />
       <recent name="C:\Users\Pingu\Desktop\HDIP\ictSkills\Assignment\ExpressGym" />
     </key>
@@ -80,7 +96,10 @@
       <workItem from="1596745925592" duration="2338000" />
       <workItem from="1597270070678" duration="13972000" />
       <workItem from="1597584975202" duration="32670000" />
-      <workItem from="1598390484871" duration="2866000" />
+      <workItem from="1598390484871" duration="3224000" />
+      <workItem from="1598475731047" duration="3949000" />
+      <workItem from="1598563410407" duration="4518000" />
+      <workItem from="1598778146656" duration="5288000" />
     </task>
     <servers />
   </component>
@@ -108,26 +127,26 @@
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/1920.0.1920.1048/0.0.1920.1048@0.0.1920.1048" timestamp="1596665230603" />
-    <state width="1899" height="150" key="GridCell.Tab.0.bottom" timestamp="1598395411719">
+    <state width="1899" height="150" key="GridCell.Tab.0.bottom" timestamp="1598808538574">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1899" height="150" key="GridCell.Tab.0.bottom/0.0.1920.1048@0.0.1920.1048" timestamp="1597097852035" />
-    <state width="1899" height="150" key="GridCell.Tab.0.bottom/1920.0.1920.1048/0.0.1920.1048@0.0.1920.1048" timestamp="1598395411719" />
-    <state width="1899" height="150" key="GridCell.Tab.0.center" timestamp="1598395411718">
+    <state width="1899" height="150" key="GridCell.Tab.0.bottom/0.0.1920.1048@0.0.1920.1048" timestamp="1598695881830" />
+    <state width="1899" height="150" key="GridCell.Tab.0.bottom/1920.0.1920.1048/0.0.1920.1048@0.0.1920.1048" timestamp="1598808538574" />
+    <state width="1899" height="150" key="GridCell.Tab.0.center" timestamp="1598808538574">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1899" height="150" key="GridCell.Tab.0.center/0.0.1920.1048@0.0.1920.1048" timestamp="1597097852035" />
-    <state width="1899" height="150" key="GridCell.Tab.0.center/1920.0.1920.1048/0.0.1920.1048@0.0.1920.1048" timestamp="1598395411718" />
-    <state width="1899" height="150" key="GridCell.Tab.0.left" timestamp="1598395411718">
+    <state width="1899" height="150" key="GridCell.Tab.0.center/0.0.1920.1048@0.0.1920.1048" timestamp="1598695881830" />
+    <state width="1899" height="150" key="GridCell.Tab.0.center/1920.0.1920.1048/0.0.1920.1048@0.0.1920.1048" timestamp="1598808538574" />
+    <state width="1899" height="150" key="GridCell.Tab.0.left" timestamp="1598808538574">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1899" height="150" key="GridCell.Tab.0.left/0.0.1920.1048@0.0.1920.1048" timestamp="1597097852035" />
-    <state width="1899" height="150" key="GridCell.Tab.0.left/1920.0.1920.1048/0.0.1920.1048@0.0.1920.1048" timestamp="1598395411718" />
-    <state width="1899" height="150" key="GridCell.Tab.0.right" timestamp="1598395411719">
+    <state width="1899" height="150" key="GridCell.Tab.0.left/0.0.1920.1048@0.0.1920.1048" timestamp="1598695881830" />
+    <state width="1899" height="150" key="GridCell.Tab.0.left/1920.0.1920.1048/0.0.1920.1048@0.0.1920.1048" timestamp="1598808538574" />
+    <state width="1899" height="150" key="GridCell.Tab.0.right" timestamp="1598808538574">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state width="1899" height="150" key="GridCell.Tab.0.right/0.0.1920.1048@0.0.1920.1048" timestamp="1597097852035" />
-    <state width="1899" height="150" key="GridCell.Tab.0.right/1920.0.1920.1048/0.0.1920.1048@0.0.1920.1048" timestamp="1598395411719" />
+    <state width="1899" height="150" key="GridCell.Tab.0.right/0.0.1920.1048@0.0.1920.1048" timestamp="1598695881830" />
+    <state width="1899" height="150" key="GridCell.Tab.0.right/1920.0.1920.1048/0.0.1920.1048@0.0.1920.1048" timestamp="1598808538574" />
     <state x="777" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598115337248">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>

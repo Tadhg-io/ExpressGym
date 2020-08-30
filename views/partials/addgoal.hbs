@@ -1,0 +1,31 @@
+<div class="ui card">
+    <div class="content">
+        <h1 class="center aligned">New Goal</h1>
+    </div>
+    <div class="extra content">
+        <form class="ui form" action="/dashboard/addgoal" method="POST">
+            <div class="required field">
+                <label>Measurement</label>
+                <select class="ui dropdown" placeholder="" type="text" name="goalLabel">
+                    <option value="Weight">Weight</option>
+                    <option value="Chest">Chest</option>
+                    <option value="Weight">Thigh</option>
+                    <option value="Chest">Upper Arm</option>
+                    <option value="Weight">Waist</option>
+                    <option value="Chest">Hips</option>
+            </select>
+            </div>
+            <div class="required field">
+                <label>Goal</label>
+                <input placeholder="" type="text" name="goalValue">
+            </div>
+            <div class="required field">
+                <label>To achieve by</label>
+                <input placeholder="" type="date" name="goalDate">
+            </div>
+            <div class="center aligned">
+                <button class="ui blue submit button"> Create Goal </button>
+            </div>
+        </form>
+    </div>
+</div>

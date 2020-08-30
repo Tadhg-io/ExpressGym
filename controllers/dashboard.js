@@ -3,6 +3,7 @@
 const logger = require("../utils/logger");
 const analytics = require("../utils/analytics");
 const assessmentStore = require('../models/assessment-store');
+const goalStore = require('../models/goal-store');
 const accounts = require ('./accounts.js');
 const uuid = require('uuid');
 const _ = require('lodash');
@@ -71,6 +72,25 @@ const dashboard = {
     logger.debug('Adding a new assessment', newAssessment);
     // add the assessment to the db
     assessmentStore.addAssessment(newAssessment);
+    // reload the dashboard
+    response.redirect('/dashboard');
+  },
+
+  addGoal(request, response) {
+    // get the logged in user
+    const loggedInUser = accounts.getCurrentUser(request);
+
+    // create the goal object
+    const newGoal = {
+      id: uuid.v1(),
+      userid: loggedInUser.id,
+      date: request.body.goalDate,
+      label: request.body.goalLabel,
+      value: parseFloat(request.body.goalValue)
+    };
+    logger.debug('Adding a new assessment', newGoal);
+    // add the goal to the db
+    goalStore.addGoal(newGoal);
     // reload the dashboard
     response.redirect('/dashboard');
   },

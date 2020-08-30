@@ -26,6 +26,40 @@
       "waist": "68",
       "hips": "58",
       "trend": true
+    },
+    {
+      "id": "72210210-e8b2-11ea-9739-b12f18a6bbc6",
+      "userid": "f1a51470-e8af-11ea-9739-b12f18a6bbc6",
+      "date": "2020-08-27T22:12:50.481Z",
+      "formatteddate": "27-7-2020",
+      "weight": "",
+      "chest": "",
+      "thigh": "",
+      "upperarm": "",
+      "waist": "",
+      "hips": "",
+      "trend": true
+    },
+    {
+      "id": "2b17bc00-ead9-11ea-8114-fb12308244af",
+      "userid": "1d95f2e0-d760-11ea-82dd-dd5f3fd20f80",
+      "date": "2020-09-02",
+      "label": "Weight",
+      "value": "81"
+    },
+    {
+      "id": "3ed12c40-ead9-11ea-8114-fb12308244af",
+      "userid": "1d95f2e0-d760-11ea-82dd-dd5f3fd20f80",
+      "date": "",
+      "label": "Weight",
+      "value": ""
+    },
+    {
+      "id": "f0010430-eada-11ea-8114-fb12308244af",
+      "userid": "1d95f2e0-d760-11ea-82dd-dd5f3fd20f80",
+      "date": "2020-08-26",
+      "label": "Weight",
+      "value": "81.9"
     }
   ]
 }

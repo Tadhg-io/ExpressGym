@@ -39,6 +39,17 @@
       "startingweight": "82",
       "id": "b9c14e30-dfcb-11ea-9bc0-0bb457513f3c",
       "type": "member"
+    },
+    {
+      "name": "Web",
+      "gender": "Female",
+      "email": "20091418@mail.wit.ie",
+      "password": "789456",
+      "address": "123 Baker Street",
+      "height": "130",
+      "startingweight": "82",
+      "id": "f1a51470-e8af-11ea-9739-b12f18a6bbc6",
+      "type": "member"
     }
   ]
 }
