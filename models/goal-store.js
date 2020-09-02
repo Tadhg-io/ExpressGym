@@ -20,6 +20,14 @@ const goalStore = {
     return this.store.findBy(this.collection, { userid: userid });
   },
 
+  getOpenUserGoals(userid) {
+    return this.store.findBy(this.collection, { userid: userid, status: "open" });
+  },
+
+  getClosedUserGoals(userid) {
+    return this.store.findBy(this.collection, { userid: userid, status: "missed" }, { userid: userid, status: "hit" });
+  },
+
   addGoal(goal) {
     this.store.add(this.collection, goal);
     this.store.save();

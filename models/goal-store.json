@@ -1,31 +1,20 @@
 {
   "goalCollection": [
     {
-      "id": "a84ed904-e724-11ea-81a4-1b4fb67a9ba1",
-      "date": "2020-08-25T22:45:21.679Z",
-      "status": "open",
-      "weight": 81
+      "id": "70eb06f0-ebcf-11ea-b529-ffe4efb37251",
+      "userid": "1d95f2e0-d760-11ea-82dd-dd5f3fd20f80",
+      "date": "2020-09-02",
+      "label": "Weight",
+      "value": 81.9,
+      "status": "open"
     },
     {
-      "id": "ff7fff10-eada-11ea-9800-474a1cbf2e04",
+      "id": "8e594a10-ebd1-11ea-b529-ffe4efb37251",
       "userid": "1d95f2e0-d760-11ea-82dd-dd5f3fd20f80",
-      "date": "2020-08-12",
-      "label": "Weight",
-      "value": "81.9"
-    },
-    {
-      "id": "69110810-eadc-11ea-b017-5f9c265445f4",
-      "userid": "1d95f2e0-d760-11ea-82dd-dd5f3fd20f80",
-      "date": "",
-      "label": "Weight",
-      "value": 4554
-    },
-    {
-      "id": "6f92ae50-eadc-11ea-b017-5f9c265445f4",
-      "userid": "1d95f2e0-d760-11ea-82dd-dd5f3fd20f80",
-      "date": "",
-      "label": "Weight",
-      "value": 20.3
+      "date": "2020-09-03",
+      "label": "Chest",
+      "value": 20.3,
+      "status": "missed"
     }
   ]
 }

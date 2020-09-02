@@ -1,0 +1,26 @@
+<div class="ui segment">
+    <div class="ui relaxed list">
+        <h1>Open Goals</h1>
+        <table class="ui celled table">
+             {{> goal-table-header }}
+            <tbody>
+                {{#each openGoals }}
+                    {{> goal-row}}
+                {{/each }}
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="ui segment">
+    <div class="ui relaxed list">
+        <h1>Closed Goals</h1>
+        <table class="ui celled table">
+            {{> goal-table-header }}
+            <tbody>
+            {{#each closedGoals }}
+                {{> goal-row}}
+            {{/each }}
+            </tbody>
+        </table>
+    </div>
+</div>

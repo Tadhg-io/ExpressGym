@@ -36,6 +36,8 @@ const dashboard = {
     let viewData = {
       title: 'Dashboard - ExpressGym',
       assessments: assessmentStore.getUserAssessments(loggedInUser.id),
+      openGoals: goalStore.getOpenUserGoals(loggedInUser.id),
+      closedGoals: goalStore.getClosedUserGoals(loggedInUser.id),
       user: loggedInUser,
       analytics: userAnalytics
     };
@@ -86,7 +88,8 @@ const dashboard = {
       userid: loggedInUser.id,
       date: request.body.goalDate,
       label: request.body.goalLabel,
-      value: parseFloat(request.body.goalValue)
+      value: parseFloat(request.body.goalValue),
+      status: "open"
     };
     logger.debug('Adding a new assessment', newGoal);
     // add the goal to the db
